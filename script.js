@@ -15,7 +15,6 @@ class PigGame {
         this.newGameBtn = document.querySelector('.btn--new');
         this.rollDiceBtn = document.querySelector('.btn--roll');
         this.holdBtn = document.querySelector('.btn--hold');
-        this.winnerWrapper = document.querySelector('.winner');
         this.playersScore = [0, 0];
         this.activePlayer = 0;
         this.randomNumber = 0;
